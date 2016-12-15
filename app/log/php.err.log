@@ -1,0 +1,40 @@
+[15-Dec-2016 05:51:30 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'WebModule\Komin\Beast\Beauty\TestFinder\DirMapTestFinder' not found in /Volumes/Macintosh HD 2/it/bnb-test/app/pages/home.php:22
+Stack trace:
+#0 /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php(42): require_once()
+#1 {main}
+  thrown in /Volumes/Macintosh HD 2/it/bnb-test/app/pages/home.php on line 22
+[15-Dec-2016 05:51:30 Europe/Paris] PHP Warning:  require_once(/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php): failed to open stream: No such file or directory in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 05:51:30 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php' (include_path='.:/Volumes/Macintosh HD 2/it/php/projects/universe:/Volumes/Macintosh HD 2/it/web/Komin&gt;/service création/projets/bee/developer/bee') in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 06:04:41 Europe/Paris] PHP Fatal error:  Uncaught RuntimeException: Dir not found: /Volumes/Macintosh HD 2/it/bnb-test/app/pages/bnb in /Volumes/Macintosh HD 2/it/php/projects/universe/planets/DirScanner/DirScanner.php:56
+Stack trace:
+#0 /Volumes/Macintosh HD 2/it/php/projects/universe/planets/Beauty/TestFinder/KazuyaTestFinder.php(114): DirScanner\DirScanner->scanDir('/Volumes/Macint...', Object(Closure))
+#1 /Volumes/Macintosh HD 2/it/bnb-test/app/pages/home.php(23): Beauty\TestFinder\KazuyaTestFinder->getTestPageUrls()
+#2 /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php(42): require_once('/Volumes/Macint...')
+#3 {main}
+  thrown in /Volumes/Macintosh HD 2/it/php/projects/universe/planets/DirScanner/DirScanner.php on line 56
+[15-Dec-2016 06:57:09 Europe/Paris] PHP Fatal error:  Cannot declare class BumbleBee\Autoload\BeeAutoLoader, because the name is already in use in /Volumes/Macintosh HD 2/it/php/projects/universe/planets/BumbleBee/Autoload/BeeAutoloader.php on line 12
+[15-Dec-2016 06:57:44 Europe/Paris] PHP Fatal error:  Cannot declare class BumbleBee\Autoload\BeeAutoLoader, because the name is already in use in /Volumes/Macintosh HD 2/it/php/projects/universe/planets/BumbleBee/Autoload/BeeAutoloader.php on line 12
+[15-Dec-2016 06:58:01 Europe/Paris] PHP Fatal error:  Cannot declare class BumbleBee\Autoload\BeeAutoLoader, because the name is already in use in /Volumes/Macintosh HD 2/it/php/projects/universe/planets/BumbleBee/Autoload/BeeAutoloader.php on line 12
+[15-Dec-2016 06:58:31 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DirScanner\DirScanner' not found in /Volumes/Macintosh HD 2/it/php/projects/universe-snapshots/planets/Beauty/TestFinder/KazuyaTestFinder.php:106
+Stack trace:
+#0 /Volumes/Macintosh HD 2/it/bnb-test/app/pages/home.php(23): Beauty\TestFinder\KazuyaTestFinder->getTestPageUrls()
+#1 /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php(42): require_once('/Volumes/Macint...')
+#2 {main}
+  thrown in /Volumes/Macintosh HD 2/it/php/projects/universe-snapshots/planets/Beauty/TestFinder/KazuyaTestFinder.php on line 106
+[15-Dec-2016 06:58:52 Europe/Paris] PHP Fatal error:  Uncaught RuntimeException: Dir not found: /Volumes/Macintosh HD 2/it/bnb-test/app/pages/bnb in /Volumes/Macintosh HD 2/it/php/projects/universe-snapshots/planets/DirScanner/DirScanner.php:56
+Stack trace:
+#0 /Volumes/Macintosh HD 2/it/php/projects/universe-snapshots/planets/Beauty/TestFinder/KazuyaTestFinder.php(114): DirScanner\DirScanner->scanDir('/Volumes/Macint...', Object(Closure))
+#1 /Volumes/Macintosh HD 2/it/bnb-test/app/pages/home.php(23): Beauty\TestFinder\KazuyaTestFinder->getTestPageUrls()
+#2 /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php(42): require_once('/Volumes/Macint...')
+#3 {main}
+  thrown in /Volumes/Macintosh HD 2/it/php/projects/universe-snapshots/planets/DirScanner/DirScanner.php on line 56
+[15-Dec-2016 06:59:16 Europe/Paris] PHP Warning:  require_once(/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php): failed to open stream: No such file or directory in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 06:59:16 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php' (include_path='.:/Volumes/Macintosh HD 2/it/php/projects/universe:/Volumes/Macintosh HD 2/it/web/Komin&gt;/service création/projets/bee/developer/bee') in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 06:59:30 Europe/Paris] PHP Warning:  require_once(/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php): failed to open stream: No such file or directory in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 06:59:30 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php' (include_path='.:/Volumes/Macintosh HD 2/it/php/projects/universe:/Volumes/Macintosh HD 2/it/web/Komin&gt;/service création/projets/bee/developer/bee') in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 07:01:04 Europe/Paris] PHP Warning:  require_once(/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php): failed to open stream: No such file or directory in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 07:01:04 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php' (include_path='.:/Volumes/Macintosh HD 2/it/php/projects/universe:/Volumes/Macintosh HD 2/it/web/Komin&gt;/service création/projets/bee/developer/bee') in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 07:01:22 Europe/Paris] PHP Warning:  require_once(/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php): failed to open stream: No such file or directory in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 07:01:22 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php' (include_path='.:/Volumes/Macintosh HD 2/it/php/projects/universe:/Volumes/Macintosh HD 2/it/web/Komin&gt;/service création/projets/bee/developer/bee') in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 07:02:51 Europe/Paris] PHP Warning:  require_once(/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php): failed to open stream: No such file or directory in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
+[15-Dec-2016 07:02:51 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/Volumes/Macintosh HD 2/it/bnb-test/app/pages/404.php' (include_path='.:/Volumes/Macintosh HD 2/it/php/projects/universe:/Volumes/Macintosh HD 2/it/web/Komin&gt;/service création/projets/bee/developer/bee') in /Volumes/Macintosh HD 2/it/bnb-test/app/www/index.php on line 42
