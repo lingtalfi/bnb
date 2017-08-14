@@ -27,7 +27,7 @@ use Beauty\TestFinder\KazuyaTestFinder;
 
 
 
-
+require_once __DIR__ . "/../functions/main-functions.php";
 //------------------------------------------------------------------------------/
 // COLLECT TESTS
 //------------------------------------------------------------------------------/

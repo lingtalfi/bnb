@@ -54,3 +54,4 @@ Stack trace:
 [28-Dec-2016 18:15:26 Europe/Paris] PHP   4. BumbleBee\Autoload\BeeAutoLoader->autoLoader() /Users/pierrelafitte/Desktop/mondossier/web/php/projects/universe/bnb/app/www/index.php:35
 [28-Dec-2016 18:15:26 Europe/Paris] PHP   5. call_user_func_array:{/Users/pierrelafitte/Desktop/mondossier/web/php/projects/universe/bnb/app/class-planets/BumbleBee/Autoload/BeeAutoloader.php:59}() /Users/pierrelafitte/Desktop/mondossier/web/php/projects/universe/bnb/app/class-planets/BumbleBee/Autoload/BeeAutoloader.php:59
 [28-Dec-2016 18:15:26 Europe/Paris] PHP   6. BumbleBee\Autoload\ButineurAutoloader->butineurAutoload() /Users/pierrelafitte/Desktop/mondossier/web/php/projects/universe/bnb/app/class-planets/BumbleBee/Autoload/BeeAutoloader.php:59
+[14-Aug-2017 09:23:25 Europe/Paris] PHP Fatal error:  Call to undefined function az() in /Volumes/Macintosh HD 2/web/php/projects/bnb/app/pages/home.php on line 47
